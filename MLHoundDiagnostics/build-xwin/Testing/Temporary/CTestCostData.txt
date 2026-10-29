@@ -1,0 +1,3 @@
+diagnostics_tests 2 1.14065
+native_tests 1 2.35455
+---

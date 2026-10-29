@@ -1,0 +1,45 @@
+Start testing: Oct 03 19:30 KST
+----------------------------------------------------------
+1/2 Testing: diagnostics_tests
+1/2 Test: diagnostics_tests
+Command: "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 11.0/files/bin/wine" "/home/jihong_min/Projects/MLHoundDiagnostics/build-xwin/diagnostics_tests.exe"
+Directory: /home/jihong_min/Projects/MLHoundDiagnostics/build-xwin
+"diagnostics_tests" start time: Oct 03 19:30 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Wine cannot find the FreeType font library.  To enable Wine to
+use TrueType fonts please install a version of FreeType greater than
+or equal to 2.0.5.
+http://www.freetype.org
+Diagnostics checks passed: 229
+<end of output>
+Test time =   2.28 sec
+----------------------------------------------------------
+Test Passed.
+"diagnostics_tests" end time: Oct 03 19:30 KST
+"diagnostics_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/2 Testing: native_tests
+2/2 Test: native_tests
+Command: "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 11.0/files/bin/wine" "/home/jihong_min/Projects/MLHoundDiagnostics/build-xwin/native_tests.exe" "Z:\home\jihong_min\.local\share\Steam\steamapps\common\Manor Lords\ManorLords\Binaries\Win64\ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLHoundDiagnostics/build-xwin
+"native_tests" start time: Oct 03 19:30 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Wine cannot find the FreeType font library.  To enable Wine to
+use TrueType fonts please install a version of FreeType greater than
+or equal to 2.0.5.
+http://www.freetype.org
+Production diagnostics/native checks passed: 233
+<end of output>
+Test time =   2.35 sec
+----------------------------------------------------------
+Test Passed.
+"native_tests" end time: Oct 03 19:30 KST
+"native_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 03 19:30 KST

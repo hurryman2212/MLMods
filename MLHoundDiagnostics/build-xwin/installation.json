@@ -1,0 +1,12 @@
+{
+  "game_version": "0.8.111",
+  "mod_version": "0.1.0",
+  "installed": true,
+  "dll_sha256": "bb8fa1e892dc414191c6335fa74373fad1c0033573675df07cd1e3943bb9808c",
+  "diagnostic_tests_passed": 229,
+  "production_native_tests_passed": 233,
+  "exact_hook_sites_validated": 4,
+  "game_running_during_install": false,
+  "save_data_modified": false,
+  "in_game_bonus_event_observed_after_install": false
+}

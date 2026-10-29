@@ -1,0 +1,51 @@
+Start testing: Oct 29 22:36 KST
+----------------------------------------------------------
+1/2 Testing: city_editor_tests
+1/2 Test: city_editor_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLCityEditor/build-xwin/city_editor_tests.exe" "Z:/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLCityEditor/build-xwin
+"city_editor_tests" start time: Oct 29 22:36 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+profile: 1541 checks, 0 failures; 23 hooks, 1056 stub bytes
+Construction: 33 checks, 0 failures
+demolition: 22 checks, 0 failures
+Upgrade tests PASS 737 checks
+patch: 41 checks, 0 failures
+bridge: 270 checks, 0 failures
+Retinue: 87 checks, 0 failures
+Eligibility tests PASS 680 checks
+maturity: 157 checks, 0 failures
+Windmill: 126 checks, 0 failures
+Extension cancel tests PASS 1693 checks
+TOTAL FAILURES: 0
+<end of output>
+Test time =   2.34 sec
+----------------------------------------------------------
+Test Passed.
+"city_editor_tests" end time: Oct 29 22:36 KST
+"city_editor_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/2 Testing: city_ui_tests
+2/2 Test: city_ui_tests
+Command: "/usr/bin/lua5.4" "/home/jihong_min/Projects/MLMods/MLCityEditor/tests/ui_tests.lua" "/home/jihong_min/Projects/MLMods/MLCityEditor/scripts/main.lua"
+Directory: /home/jihong_min/Projects/MLMods/MLCityEditor/build-xwin
+"city_ui_tests" start time: Oct 29 22:36 KST
+Output:
+----------------------------------------------------------
+[MLCityEditor] Native artisan extension cancel UI hooks registered.
+
+[MLCityEditor] Extension cancel UI recipe refresh: ...jihong_min/Projects/MLMods/MLCityEditor/scripts/main.lua:256: ...hong_min/Projects/MLMods/MLCityEditor/tests/ui_tests.lua:50: simulated native UI failure
+
+City UI tests passed: 33
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"city_ui_tests" end time: Oct 29 22:36 KST
+"city_ui_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 29 22:36 KST

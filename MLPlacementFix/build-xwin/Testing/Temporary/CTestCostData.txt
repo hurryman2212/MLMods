@@ -1,0 +1,7 @@
+placement_runtime_tests 10 0.224553
+placement_hook_tests 16 0.155756
+manor_load_tests 11 0.24423
+house_placement_tests 9 0.266685
+market_selection_tests 6 0.374721
+fence_lifecycle_tests 7 0.363589
+---

@@ -1,0 +1,26 @@
+{
+  "mod": "MLCityEditor",
+  "version": "0.1.0",
+  "game_version": "0.8.117",
+  "built": true,
+  "installed": true,
+  "dll_sha256": "6e9c63d1758d7399eb4306c6a65b5b807a02eefcd2f9aab1c935d900ac1f4904",
+  "root_cause": "Rebuilt Deep Mine had correct type52 but stale EBuildingFunction::Rubble21; GetAllProducedGoods returned no products, hiding Advanced production controls.",
+  "fix": "At original TypeCallback Initialize call after type and region bookkeeping, clear only stale Rubble21 to Default0 for an authorized pending player Rebuild16. Native Initialize derives the correct function from actual building stats before its registrations.",
+  "new_call_hook_rva": "0x4cf9682",
+  "native_target_rva": "0x4d1a650",
+  "tests": {
+    "cpp_checks": 5387,
+    "lua_checks": 33,
+    "failures": 0,
+    "hook_count": 23,
+    "ctest_groups_passed": 2
+  },
+  "live_memory_modified": false,
+  "save_files_modified": false,
+  "existing_mine_reload": "buildingFunction is not serialized; completedtype52 willderiveMine18 atnative spawn/load",
+  "in_game_verification": "Fixed DLL installed after game exit; next launch and Rebuild gameplay verification pending.",
+  "installed_dll": "/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ue4ss/Mods/MLCityEditor/dlls/main.dll",
+  "backup": "/home/jihong_min/codex-workspace-manorlords/rebuild-advanced-20261029/installed-before",
+  "other_mods_and_companion_lua_unchanged": true
+}

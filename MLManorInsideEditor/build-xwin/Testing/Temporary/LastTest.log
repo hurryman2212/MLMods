@@ -1,0 +1,93 @@
+Start testing: Oct 25 20:04 KST
+----------------------------------------------------------
+1/4 Testing: manor_editor_tests
+1/4 Test: manor_editor_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLManorInsideEditor/build-xwin/manor_editor_tests.exe" "Z:/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLManorInsideEditor/build-xwin
+"manor_editor_tests" start time: Oct 25 20:04 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Geometry benchmark 1600 modules x 1000 triangles: legacy 36.461 ms, indexed 2.477 ms
+Geometry checks passed: 158071
+PASS record guard preserves original path and displaced instruction
+PASS record guard branches only for the selected actor index
+PASS record guard preserves original path and displaced instruction
+PASS record guard branches only for the selected actor index
+PASS record guard preserves original path and displaced instruction
+PASS record guard branches only for the selected actor index
+PASS building bridge preserves five native arguments and appends pawn
+PASS snap graph bridge preserves source registers and full endpoint nodes
+PASS snap graph bridge preserves false callback result
+PASS snap graph bridge preserves source registers and full endpoint nodes
+PASS snap graph bridge preserves false callback result
+PASS snap graph bridge preserves source registers and full endpoint nodes
+PASS snap graph bridge preserves false callback result
+PASS snap graph bridge preserves source registers and full endpoint nodes
+PASS snap graph bridge preserves false callback result
+PASS unknown snap graph callsite is rejected
+PASS original graph thunk adjusts work pointer and preserves 64-bit return
+PASS graph tail-JMP patch installs in isolated fixture
+PASS patched graph thunk preserves adjusted work pointer and full return
+PASS graph thunk restores original behavior
+Image validation and restoration: 224 checks passed; 22 hook sites verified. Game files/process untouched.
+<end of output>
+Test time =   2.95 sec
+----------------------------------------------------------
+Test Passed.
+"manor_editor_tests" end time: Oct 25 20:04 KST
+"manor_editor_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/4 Testing: placement_tests
+2/4 Test: placement_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLManorInsideEditor/build-xwin/placement_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLManorInsideEditor/build-xwin
+"placement_tests" start time: Oct 25 20:04 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+PASS: 21207 actual placement wrapper checks
+<end of output>
+Test time =   2.39 sec
+----------------------------------------------------------
+Test Passed.
+"placement_tests" end time: Oct 25 20:04 KST
+"placement_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/4 Testing: snap_tests
+3/4 Test: snap_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLManorInsideEditor/build-xwin/snap_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLManorInsideEditor/build-xwin
+"snap_tests" start time: Oct 25 20:04 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Snap scope tests passed: 4318
+<end of output>
+Test time =   2.56 sec
+----------------------------------------------------------
+Test Passed.
+"snap_tests" end time: Oct 25 20:04 KST
+"snap_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+4/4 Testing: geometry_tag_tests
+4/4 Test: geometry_tag_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLManorInsideEditor/build-xwin/geometry_tag_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLManorInsideEditor/build-xwin
+"geometry_tag_tests" start time: Oct 25 20:04 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Geometry tag tests passed: 32
+<end of output>
+Test time =   2.43 sec
+----------------------------------------------------------
+Test Passed.
+"geometry_tag_tests" end time: Oct 25 20:04 KST
+"geometry_tag_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 25 20:04 KST

@@ -1,0 +1,6 @@
+# ninja log v7
+1	410	1791022232111040006	CMakeFiles/MLAllRegionRoads.dir/src/MLAllRegionRoads.cpp.obj	9824d5e482d0ad84
+410	452	1791022232547043058	MLAllRegionRoads.dll	e12ad371aa51263
+410	452	1791022232547043058	MLAllRegionRoads.lib	e12ad371aa51263
+2	438	1791022232114686073	CMakeFiles/road_patch_tests.dir/tests/road_patch_tests.cpp.obj	4514d325a0ba59fc
+438	466	1791022232547043058	road_patch_tests.exe	d5632d447a36def9

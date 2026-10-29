@@ -1,0 +1,5 @@
+cache_update_guard_tests 9 0.187908
+banner_guard_tests 9 0.197031
+melee_assignment_guard_tests 6 0.326393
+home_reference_guard_tests 2 0.914611
+---

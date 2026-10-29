@@ -1,0 +1,22 @@
+Start testing: Oct 06 06:24 KST
+----------------------------------------------------------
+1/1 Testing: eraser_tests
+1/1 Test: eraser_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/Projects/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLEraseTrees/build-xwin/eraser_tests.exe" "Z:/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLEraseTrees/build-xwin
+"eraser_tests" start time: Oct 06 06:24 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+eraser runtime: 163 checks, 0 failures
+eraser profile: 187 checks, 0 failures; 2 hooks, 416 stub bytes
+eraser bridge: 2203 checks, 0 failures
+<end of output>
+Test time =   2.29 sec
+----------------------------------------------------------
+Test Passed.
+"eraser_tests" end time: Oct 06 06:24 KST
+"eraser_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 06 06:24 KST

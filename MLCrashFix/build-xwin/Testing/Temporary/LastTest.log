@@ -1,0 +1,71 @@
+Start testing: Oct 11 00:52 KST
+----------------------------------------------------------
+1/4 Testing: cache_update_guard_tests
+1/4 Test: cache_update_guard_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/Projects/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLCrashFix/build-xwin/cache_update_guard_tests.exe" "Z:\home\jihong_min\.local\share\Steam\steamapps\common\Manor Lords\ManorLords\Binaries\Win64\ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLCrashFix/build-xwin
+"cache_update_guard_tests" start time: Oct 11 00:52 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+PASS: 414 checks; deferred=8 executed=8 graph_deferred=5
+<end of output>
+Test time =   1.69 sec
+----------------------------------------------------------
+Test Passed.
+"cache_update_guard_tests" end time: Oct 11 00:52 KST
+"cache_update_guard_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/4 Testing: banner_guard_tests
+2/4 Test: banner_guard_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/Projects/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLCrashFix/build-xwin/banner_guard_tests.exe" "Z:\home\jihong_min\.local\share\Steam\steamapps\common\Manor Lords\ManorLords\Binaries\Win64\ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLCrashFix/build-xwin
+"banner_guard_tests" start time: Oct 11 00:52 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+PASS 475 checks; actual hardware AV recovered once; native owned path unchanged
+<end of output>
+Test time =   1.77 sec
+----------------------------------------------------------
+Test Passed.
+"banner_guard_tests" end time: Oct 11 00:52 KST
+"banner_guard_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/4 Testing: melee_assignment_guard_tests
+3/4 Test: melee_assignment_guard_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/Projects/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLCrashFix/build-xwin/melee_assignment_guard_tests.exe" "Z:\home\jihong_min\.local\share\Steam\steamapps\common\Manor Lords\ManorLords\Binaries\Win64\ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLCrashFix/build-xwin
+"melee_assignment_guard_tests" start time: Oct 11 00:52 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+PASS: 13221 checks; 24-by-11 crash dimensions covered offline
+<end of output>
+Test time =   1.96 sec
+----------------------------------------------------------
+Test Passed.
+"melee_assignment_guard_tests" end time: Oct 11 00:52 KST
+"melee_assignment_guard_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/4 Testing: home_reference_guard_tests
+4/4 Test: home_reference_guard_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/Projects/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLCrashFix/build-xwin/home_reference_guard_tests.exe" "Z:\home\jihong_min\.local\share\Steam\steamapps\common\Manor Lords\ManorLords\Binaries\Win64\ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLCrashFix/build-xwin
+"home_reference_guard_tests" start time: Oct 11 00:52 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Home reference guard: 19306 checks passed.
+<end of output>
+Test time =   1.83 sec
+----------------------------------------------------------
+Test Passed.
+"home_reference_guard_tests" end time: Oct 11 00:52 KST
+"home_reference_guard_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 11 00:52 KST

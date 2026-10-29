@@ -1,0 +1,22 @@
+Start testing: Oct 29 21:15 KST
+----------------------------------------------------------
+1/1 Testing: tree_region_tests
+1/1 Test: tree_region_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLTreeRegionFix/build-xwin/tree_region_tests.exe" "Z:/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLTreeRegionFix/build-xwin
+"tree_region_tests" start time: Oct 29 21:15 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+behavior: 38 checks, 0 failures
+tree profile: 230 checks, 0 failures; 2 hooks, 320 stub bytes
+tree bridge: 1092 checks, 0 failures
+<end of output>
+Test time =   2.31 sec
+----------------------------------------------------------
+Test Passed.
+"tree_region_tests" end time: Oct 29 21:15 KST
+"tree_region_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 29 21:15 KST

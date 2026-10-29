@@ -1,0 +1,8 @@
+road_tests 7 0.27581
+geometry_tag_tests 5 0.479508
+connection_tests 5 0.45583
+connection_reload_tests 5 0.459054
+castle_preview_tests 5 0.452575
+road_editor_tests 5 0.557512
+road_rule_bridge_tests 3 0.814868
+---

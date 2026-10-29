@@ -1,0 +1,36 @@
+{
+  "mod": "MLTreeRegionFix",
+  "version": "0.1.0",
+  "game_version": "0.8.117",
+  "installed": true,
+  "source": "/home/jihong_min/Projects/MLMods/MLTreeRegionFix",
+  "installed_dll": "/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ue4ss/Mods/MLTreeRegionFix/dlls/main.dll",
+  "dll_sha256": "2c0298bedf8ce2321e07fff122aa2a5b43b7510ab5c2a5862de61951c9ea5f33",
+  "supported_game_sha256": "560451df38cd91134026c25b69539449c570f3163e33bc8c45b4dc20b6952cee",
+  "scope": {
+    "new_main_player_trees": "Visual component and growth record follow the actual planting coordinate region regardless of target owner",
+    "target_owners": [
+      "same player",
+      "other AI/player",
+      "unowned"
+    ],
+    "source_player_guard_preserved": true,
+    "same_world_canonical_region_and_component_membership_checks_preserved": true,
+    "native_planting_target_eligibility_unchanged": true,
+    "worker_and_land_ownership_unchanged": true,
+    "existing_trees_not_repaired": true,
+    "source_AI_workers_unchanged": true,
+    "save_files_modified": false,
+    "other_installed_mod_files_unchanged": true
+  },
+  "tests": {
+    "behavior": 38,
+    "profile": 230,
+    "bridge": 1092,
+    "total": 1360,
+    "failures": 0
+  },
+  "clangd": "No source diagnostics; MLTreeRegionFix.cpp restricted feature-tweak checks to line1 to avoid existing ExpandDeducedType internal failures; full-file parsing remains enabled",
+  "backup": "/home/jihong_min/codex-workspace-manorlords/tree-region-any-owner-20261029/installed-before",
+  "in_game_validation": "Pending next game launch; DLL build, current EXE fingerprints, behavior and register-preservation tests passed"
+}

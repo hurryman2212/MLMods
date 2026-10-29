@@ -1,0 +1,149 @@
+Start testing: Oct 25 20:03 KST
+----------------------------------------------------------
+1/7 Testing: road_tests
+1/7 Test: road_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin/road_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin
+"road_tests" start time: Oct 25 20:03 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+PASS: 247 road wrapper checks
+<end of output>
+Test time =   1.93 sec
+----------------------------------------------------------
+Test Passed.
+"road_tests" end time: Oct 25 20:03 KST
+"road_tests" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/7 Testing: road_rule_bridge_tests
+2/7 Test: road_rule_bridge_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin/road_rule_bridge_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin
+"road_rule_bridge_tests" start time: Oct 25 20:03 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+road rule bridge: 7039 checks, 0 failures
+<end of output>
+Test time =   2.44 sec
+----------------------------------------------------------
+Test Passed.
+"road_rule_bridge_tests" end time: Oct 25 20:03 KST
+"road_rule_bridge_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/7 Testing: geometry_tag_tests
+3/7 Test: geometry_tag_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin/geometry_tag_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin
+"geometry_tag_tests" start time: Oct 25 20:03 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Geometry tag tests passed: 45
+<end of output>
+Test time =   2.40 sec
+----------------------------------------------------------
+Test Passed.
+"geometry_tag_tests" end time: Oct 25 20:03 KST
+"geometry_tag_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+4/7 Testing: connection_tests
+4/7 Test: connection_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin/connection_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin
+"connection_tests" start time: Oct 25 20:03 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+connections: 56 checks, 0 failures
+<end of output>
+Test time =   2.28 sec
+----------------------------------------------------------
+Test Passed.
+"connection_tests" end time: Oct 25 20:03 KST
+"connection_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+5/7 Testing: connection_reload_tests
+5/7 Test: connection_reload_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin/connection_reload_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin
+"connection_reload_tests" start time: Oct 25 20:03 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+connection reload: 110 checks, 0 failures
+<end of output>
+Test time =   2.30 sec
+----------------------------------------------------------
+Test Passed.
+"connection_reload_tests" end time: Oct 25 20:04 KST
+"connection_reload_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+6/7 Testing: castle_preview_tests
+6/7 Test: castle_preview_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin/castle_preview_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin
+"castle_preview_tests" start time: Oct 25 20:04 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+castle_preview_tests: 187 checks passed
+<end of output>
+Test time =   2.26 sec
+----------------------------------------------------------
+Test Passed.
+"castle_preview_tests" end time: Oct 25 20:04 KST
+"castle_preview_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+7/7 Testing: road_editor_tests
+7/7 Test: road_editor_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin/road_editor_tests.exe" "Z:/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLRoadEditor/build-xwin
+"road_editor_tests" start time: Oct 25 20:04 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Geometry checks passed: 30
+PASS record guard preserves original path and displaced instruction
+PASS record guard branches only for the selected actor index
+PASS record guard preserves original path and displaced instruction
+PASS record guard branches only for the selected actor index
+PASS record guard preserves original path and displaced instruction
+PASS record guard branches only for the selected actor index
+PASS building bridge preserves five native arguments and appends pawn
+PASS endpoint bridge preserves float radius in XMM2
+PASS segment bridge preserves XMM3, both stack arguments and pawn
+PASS castle road bridge preserves native arguments and appends RDI pawn
+PASS castle road bridge preserves false preview argument
+PASS castle road bridge preserves exact native road pointer
+PASS snap graph bridge preserves source registers and full endpoint nodes
+PASS snap graph bridge preserves false callback result
+PASS snap graph bridge preserves source registers and full endpoint nodes
+PASS snap graph bridge preserves false callback result
+PASS snap graph bridge preserves source registers and full endpoint nodes
+PASS snap graph bridge preserves false callback result
+PASS snap graph bridge preserves source registers and full endpoint nodes
+PASS snap graph bridge preserves false callback result
+PASS unknown snap graph callsite is rejected
+PASS original graph thunk adjusts work pointer and preserves 64-bit return
+PASS graph tail-JMP patch installs in isolated fixture
+PASS patched graph thunk preserves adjusted work pointer and full return
+PASS graph thunk restores original behavior
+connection bridge/profile: 483 checks, 0 failures
+Image validation and restoration: 618 checks passed; 20 hook sites verified. Game files/process untouched.
+<end of output>
+Test time =   2.79 sec
+----------------------------------------------------------
+Test Passed.
+"road_editor_tests" end time: Oct 25 20:04 KST
+"road_editor_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 25 20:04 KST

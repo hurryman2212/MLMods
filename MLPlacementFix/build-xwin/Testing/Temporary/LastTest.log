@@ -1,0 +1,109 @@
+Start testing: Oct 25 19:00 KST
+----------------------------------------------------------
+1/6 Testing: placement_runtime_tests
+1/6 Test: placement_runtime_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin/placement_runtime_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin
+"placement_runtime_tests" start time: Oct 25 19:00 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+placement runtime: 164 checks, 0 failures
+<end of output>
+Test time =   2.25 sec
+----------------------------------------------------------
+Test Passed.
+"placement_runtime_tests" end time: Oct 25 19:00 KST
+"placement_runtime_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+2/6 Testing: house_placement_tests
+2/6 Test: house_placement_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin/house_placement_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin
+"house_placement_tests" start time: Oct 25 19:00 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+house placement: 49 checks, 0 failures
+<end of output>
+Test time =   2.40 sec
+----------------------------------------------------------
+Test Passed.
+"house_placement_tests" end time: Oct 25 19:00 KST
+"house_placement_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/6 Testing: market_selection_tests
+3/6 Test: market_selection_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin/market_selection_tests.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin
+"market_selection_tests" start time: Oct 25 19:00 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+market selection: 1701 checks passed
+<end of output>
+Test time =   2.25 sec
+----------------------------------------------------------
+Test Passed.
+"market_selection_tests" end time: Oct 25 19:00 KST
+"market_selection_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+4/6 Testing: placement_hook_tests
+4/6 Test: placement_hook_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin/placement_hook_tests.exe" "Z:/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin
+"placement_hook_tests" start time: Oct 25 19:00 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+placement bridge: 9125 checks, 0 failures
+placement profile/installer: 600 checks, 0 failures
+<end of output>
+Test time =   2.49 sec
+----------------------------------------------------------
+Test Passed.
+"placement_hook_tests" end time: Oct 25 19:00 KST
+"placement_hook_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+5/6 Testing: manor_load_tests
+5/6 Test: manor_load_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin/manor_load_tests.exe" "Z:/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin
+"manor_load_tests" start time: Oct 25 19:00 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+manor plan: 49 checks, 0 failures
+manor runtime: 117 checks, 0 failures
+manor load bridge: 10204 checks, 0 failures
+manor load profile/installer: 220 checks, 0 failures
+<end of output>
+Test time =   2.69 sec
+----------------------------------------------------------
+Test Passed.
+"manor_load_tests" end time: Oct 25 19:00 KST
+"manor_load_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+6/6 Testing: fence_lifecycle_tests
+6/6 Test: fence_lifecycle_tests
+Command: "/usr/bin/env" "WINEPREFIX=/home/jihong_min/codex-workspace-manorlords/ManorLordsSaveAnalysis/ooz-wine-prefix" "WINEDEBUG=-all" "/home/jihong_min/.local/share/Steam/steamapps/common/Proton 10.0/files/bin/wine64" "/home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin/fence_lifecycle_tests.exe" "Z:/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ManorLords-Win64-Shipping.exe"
+Directory: /home/jihong_min/Projects/MLMods/MLPlacementFix/build-xwin
+"fence_lifecycle_tests" start time: Oct 25 19:00 KST
+Output:
+----------------------------------------------------------
+wineserver: using server-side synchronization.
+Fence lifecycle runtime tests passed: 1851 checks
+<end of output>
+Test time =   2.55 sec
+----------------------------------------------------------
+Test Passed.
+"fence_lifecycle_tests" end time: Oct 25 19:00 KST
+"fence_lifecycle_tests" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Oct 25 19:00 KST

@@ -1,0 +1,24 @@
+# ninja log v7
+0	282	1792926127148738898	CMakeFiles/MLManorInsideEditor.dir/src/Snap.cpp.obj	582b90447a666c1f
+0	370	1792926127148667874	CMakeFiles/MLManorInsideEditor.dir/src/Placement.cpp.obj	1e4fb89ac4faa562
+0	554	1792926127143425276	CMakeFiles/MLManorInsideEditor.dir/src/MLManorInsideEditor.cpp.obj	b2e1ee834a195cd3
+0	571	1792926127148593314	CMakeFiles/MLManorInsideEditor.dir/src/Geometry.cpp.obj	eff388e4889e20e9
+554	991	1792926127699428383	CMakeFiles/manor_editor_tests.dir/tests/stub_tests.cpp.obj	bff2a9538dbea1d7
+371	1158	1792926127515427356	CMakeFiles/manor_editor_tests.dir/tests/geometry_tests.cpp.obj	83372947115866b3
+282	1160	1792926127430644533	CMakeFiles/manor_editor_tests.dir/tests/manor_editor_tests.cpp.obj	cc245a0d2b5994b0
+571	1163	1792926127719588770	CMakeFiles/manor_editor_tests.dir/src/Geometry.cpp.obj	27fcec54ecb9f341
+991	1337	1792926128135430819	CMakeFiles/manor_editor_tests.dir/src/Placement.cpp.obj	55f2eae51c2fe32e
+1158	1468	1792926128305238725	CMakeFiles/manor_editor_tests.dir/src/Snap.cpp.obj	49b2c803327e7981
+1163	1491	1792926128311502829	CMakeFiles/placement_tests.dir/src/Placement.cpp.obj	1fac34f80fa2d39c
+1160	1582	1792926128308512103	CMakeFiles/placement_tests.dir/tests/placement_tests.cpp.obj	e2dd1d41ebc987c5
+1582	1620	1792926128755434283	MLManorInsideEditor.dll	6f886a981bade711
+1582	1620	1792926128755434283	MLManorInsideEditor.lib	6f886a981bade711
+1620	1651	1792926128764842308	manor_editor_tests.exe	8d8ab40dc03b9e0f
+1651	1677	1792926128795888763	placement_tests.exe	6b99f144b34d698f
+1468	1764	1792926128615959467	CMakeFiles/snap_tests.dir/src/Snap.cpp.obj	fa84f2817601c0b1
+1337	2002	1792926128483432764	CMakeFiles/snap_tests.dir/tests/snap_tests.cpp.obj	4e3d411e03153af9
+2002	2026	1792926129147436472	snap_tests.exe	b05af9a4bd9e0920
+1491	2097	1792926128635433613	CMakeFiles/geometry_tag_tests.dir/tests/geometry_tag_tests.cpp.obj	8e95a6a3fff84583
+2097	2120	1792926129243437009	geometry_tag_tests.exe	9e170674e3c2ab77
+0	845	1792926278936250041	CMakeFiles/manor_editor_tests.dir/tests/manor_editor_tests.cpp.obj	cc245a0d2b5994b0
+845	875	1792926279780254508	manor_editor_tests.exe	8d8ab40dc03b9e0f

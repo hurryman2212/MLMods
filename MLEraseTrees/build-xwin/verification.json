@@ -1,0 +1,41 @@
+{
+  "mod": "MLEraseTrees",
+  "version": "0.1.0",
+  "game": "0.8.111",
+  "installed": true,
+  "source": "/home/jihong_min/Projects/MLEraseTrees",
+  "installed_dll": "/home/jihong_min/.local/share/Steam/steamapps/common/Manor Lords/ManorLords/Binaries/Win64/ue4ss/Mods/MLEraseTrees/dlls/main.dll",
+  "dll_sha256": "fec02bb52a73992b4488d3e67b994d5225edcccc656fcba12c709fea27e3a5f8",
+  "game_exe_sha256": "35cf516d8c161c8ea64e801e81a90c0e5cb69f41e5581fa50e0dc2f210d33f4b",
+  "activation": "enabled.txt in new mod folder; other mod DLLs and mods.txt/mods.json unchanged",
+  "hooks": [
+    {"rva": "0x4b16b66", "original": "0f84f0020000", "purpose": "Allow only validated owned-region forestry components through the existing Erase Shrubbery tree exclusion"},
+    {"rva": "0x4b16e57", "original": "448b44244c", "purpose": "After successful native RemoveInstances, remove matching logical tree records and queue native spatial cleanup, then replay MOV R8D,[RSP+4c]"}
+  ],
+  "scope": {
+    "trigger": "User-operated Erase Shrubbery; main human player only",
+    "native_brush_geometry_and_owned_region_gate_preserved": true,
+    "shrubs_original_behavior_preserved": true,
+    "trees": "Existing selected-region forestry components from f38/f48; normal and planted trees",
+    "excluded": "Building-owned orchard/crop/ornamental components and unrelated resources/objects",
+    "resource_drops": false,
+    "native_suppression_markers_preserved": true,
+    "logical_cleanup": "Native per-axis XYZ tolerance, stable 40-byte compaction, original metadata and capacity retained; native CityPlanningComponent removal queue invoked before compaction",
+    "growing_reference_cleanup": "Native growth/save physical-instance existence checks handle removed young instances",
+    "worker_safety": "Native chopping re-resolves its target by position and finishes when absent; no manual worker/task resets",
+    "save_files_edited_during_install": false,
+    "game_executable_on_disk_modified": false,
+    "on_uninstall": "Fully restart to restore original shrubs-only rules; already erased trees remain erased in any save made afterward"
+  },
+  "tests": {
+    "runtime": 163,
+    "profile": 187,
+    "native_bridge": 2203,
+    "total": 2553,
+    "failures": 0,
+    "hook_count": 2,
+    "stub_bytes": 416
+  },
+  "native_evidence": "/home/jihong_min/Projects/ManorLordsSaveAnalysis/erase-shrubbery-trees-20261006/cleanup-audit.json",
+  "in_game_validation": "Not yet exercised interactively after installation; exact binary, native semantics, offline runtime and executable register/stack preservation tests passed."
+}

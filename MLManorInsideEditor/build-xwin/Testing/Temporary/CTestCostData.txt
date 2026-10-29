@@ -1,0 +1,5 @@
+manor_editor_tests 2 1.47382
+placement_tests 2 1.19622
+snap_tests 2 1.27988
+geometry_tag_tests 2 1.21367
+---

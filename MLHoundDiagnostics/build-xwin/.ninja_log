@@ -1,0 +1,8 @@
+# ninja log v7
+1	407	1791023080766419214	CMakeFiles/diagnostics_tests.dir/tests/test_diagnostics.cpp.obj	8f22c48791ba754a
+407	431	1791023081172513259	diagnostics_tests.exe	e7966d676d48d6b0
+1	703	1791023382750622974	CMakeFiles/MLHoundDiagnostics.dir/src/MLHoundDiagnostics.cpp.obj	d29c418a7c22f838
+704	738	1791023383478627627	MLHoundDiagnostics.dll	ca7d6da7cce4ac1f
+704	738	1791023383478627627	MLHoundDiagnostics.lib	ca7d6da7cce4ac1f
+1	1013	1791023382754853899	CMakeFiles/native_tests.dir/tests/test_native.cpp.obj	e226cbf9d8eb6eeb
+1013	1040	1791023383762629442	native_tests.exe	a0df71a1ff806581
